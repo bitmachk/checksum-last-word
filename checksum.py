@@ -1,4 +1,4 @@
-#draw 23 words from BIP39 wordlist (english.txt)
+#draw 23 words from BIP39 wordlist "english.txt"
 seed_phrase = "unusual survey coin divide biology album harbor fee profit nest claw mammal shaft basic diesel crater scatter modify bottom excuse hawk undo negative ?"
 
 #convert seed phrase into a list to be able to interface with each word individually.
