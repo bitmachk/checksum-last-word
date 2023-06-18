@@ -1,5 +1,5 @@
-# checksum
-## Calculate possible last word (for 24-word seed phrases)
+## checksum
+**Calculate possible last word (for 24-word seed phrases)**
 
 The user is prompted to input 23 words separated by spaces, with a question mark "?" as the last word. The input is converted to lowercase and stored in the variable `seed_phrase`.
 ```
