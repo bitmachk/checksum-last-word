@@ -11,7 +11,7 @@ The `seed_phrase` is split into individual words using the space separator and s
 seed_phrase = seed_phrase.split(" ")
 ```
 
-The file "english.txt" (obtain this BIP39 wordlist from https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt) is opened in read mode, and its contents are read and stored in the variable `word_list`. Each line in the file represents a word.
+The file "english.txt" (obtain this BIP39 wordlist from [here](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt)) is opened in read mode, and its contents are read and stored in the variable `word_list`. Each line in the file represents a word.
 ```
 english = open("english.txt")
 word_list = english.read().split("\n")
