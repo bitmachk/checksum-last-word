@@ -1,9 +1,9 @@
 ## checksum
-**Calculate possible last word (for 24-word seed phrases)**
+**Calculate the possible last word)**
 
-The user is prompted to input 23 words separated by spaces, with a question mark "?" as the last word. The input is converted to lowercase and stored in the variable `seed_phrase`.
+The user is prompted to input your seed in words separated by spaces, with a question mark "?" as the last word. The input is converted to lowercase and stored in the variable `seed_phrase`.
 ```
-seed_phrase = input("Please input your 23 words (separate by spaces) and leave ? as the last word: ").lower()
+seed_phrase = input("Please input your seed in words (separate by spaces) and leave ? as the last word: ").lower()
 ```
 
 The `seed_phrase` is split into individual words using the space separator and stored in a list.
