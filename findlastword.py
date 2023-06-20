@@ -1,5 +1,5 @@
-#input seed phrase separated by spaces; i.e., "unusual survey coin divide biology album harbor fee profit nest claw mammal shaft basic diesel crater scatter modify bottom excuse hawk undo negative ?"
-seed_phrase = input("Please input your 23 words (separate by spaces) and leave ? as the last word: ").lower()
+#input seed phrase separated by spaces (12, 15, 18, 21, or 24 also possible); i.e., "unusual survey coin divide biology album harbor fee profit nest claw mammal shaft basic diesel crater scatter modify bottom excuse hawk undo negative ?"
+seed_phrase = input("Please input your seed in words (separate by spaces) and leave ? as the last word: ").lower()
 
 seed_phrase = seed_phrase.split(" ")
 
