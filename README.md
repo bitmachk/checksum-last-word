@@ -1,5 +1,5 @@
 ## checksum
-**Calculate the possible last word)**
+**Calculate the possible last word**
 
 The user is prompted to input your seed in words separated by spaces, with a question mark "?" as the last word. The input is converted to lowercase and stored in the variable `seed_phrase`.
 ```
